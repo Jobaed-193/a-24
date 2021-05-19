@@ -1,0 +1,285 @@
+
+
+.clear::after{
+  content: "";
+  clear: both;
+  display: block;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+img{
+  max-width: 100%;
+}
+
+.header{
+  background-color: white;
+}
+.logo img{
+  width: 60px;
+height: auto;
+margin: 20px;
+display: inline-block;
+}
+.menu{
+
+}
+.menu ul{
+  text-align: right;
+}
+.menu ul li{
+  display: inline-block;
+}
+.menu ul li a{
+  display: inline-block;
+  font-size: 20px;
+  text-decoration: none;
+  padding: 0 20px;
+  color: black;
+  line-height: 60px;
+}
+.banner{
+  background: url(./img/banner.jpg);
+  padding: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.banner h5{
+  color: white;
+font-size: 23px;
+text-align: center;
+}
+.banner h1{
+  color: white;
+font-size: 45px;
+text-align: center;
+}
+.banner h4{
+  background-color: white;
+display: inline-block;
+padding: 12px 12px;
+border-radius: 13px;
+text-align: center;
+color: gray;
+}
+.android{
+  margin-left: 200px;
+margin-top: 34px;
+}
+.apple{}
+.android span{
+  color: gray;
+}
+
+.apple span{
+  color: gray;
+}
+
+
+.pricing-table-section{
+  background: #f7f9ff;
+  padding: 50px;
+}
+.section-title h2 {
+  font-size: 56px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.pricing-tables {
+  margin-top: 80px;
+}
+.pricing-table-item{
+  width: 32%;
+  margin-right: 2%;
+  background: #fff;
+  box-shadow: 3px 4px 30px 0 rgba(98, 120, 223,.1);
+}
+.pricing-table-item:nth-child(3){
+  margin-right: 0;
+}
+
+.p-heading{
+  padding: 30px;
+  border-bottom: 1px solid #ddd;
+  transition: .3s;
+}
+.p-content{
+  padding: 30px;
+}
+
+.p-heading h4 {
+  font-size: 25px;
+  font-weight: 500;
+}
+.p-heading h1 {
+  margin: 42px 0;
+  font-size: 56px;
+}
+.p-heading h1 span {
+  font-size: 20px;
+}
+.p-heading h5 {
+  font-weight: 500;
+  font-size: 21px;
+  margin-bottom: 22px;
+}
+.p-heading p {
+  font-size: 20px;
+  line-height: 1.5em;
+}
+
+.p-content ul{
+  list-style: none;
+}
+.p-content ul li {
+  margin: 25px 0;
+  color: #767676;
+  font-size: 22px;
+}
+.p-content ul li span {
+  display: inline-block;
+  font-size: 35px;
+  color: #6278df;
+  width: 57px;
+}
+.p-button{
+  margin-top: 60px;
+}
+.p-button .default-btn{
+  box-shadow: 3px 4px 30px 0 rgba(98, 120, 223,.3);
+}
+
+
+.pricing-table-item:hover .p-heading{
+  background: #6278df;
+  color: #fff;
+}
+.pricing-table-item:hover .p-button .default-btn{
+  background-color: #6278df;
+  color: #fff;
+}
+
+.team{}
+.team-section{
+  border: 6px double rgb(211, 82, 82);
+
+padding: 10px;
+}
+.team-cont{}
+.team-cont h1{
+  font-size: 20px;
+margin-top: 12px;
+}
+.team-cont p{
+  color: gray;
+}
+
+.team h1{
+  padding: 80px;
+text-align: center;
+font-size: 35px;
+}
+
+.subscribe p{
+  margin-top: 135px;
+text-align: center;
+font-size: 15px
+}
+.subscribe h1{
+  text-align: center;
+margin-top: 25px;
+font-size: 35px;
+}
+.email{
+text-align: center;
+margin-top: 40px;
+}
+
+.email input {
+  width: 378px;
+  height: 45px;
+  border: 2px solid orange;
+  padding: 5px;
+  border-radius: 10px;
+}
+.bt .an{
+  color: white;
+text-decoration: none;
+background-color: orange;
+padding: 14px 65px;
+font-size: 21px;
+border-radius: 10px;
+display: inline-block;
+}
+
+.bt{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.about h1{
+  text-align: center;
+}
+.about h5{
+  font-size: 18px;
+color: gray
+}
+.about p{}
+
+.contact h3{
+  font-size: 27px;
+text-align: center;
+margin: 35px;
+}
+.contact p{
+  font-size: 16px;
+text-align: center;
+}
+
+form{
+  text-align: center;
+margin-top: 45px;
+}
+.contact .email{
+  width: 450px;
+height: 45px;
+border: 2px solid #dbbb80;
+border-radius: 10px;
+background-color: #f9f9f9;
+}
+.name{
+  width: 225px;
+  height: 45px;
+  border: 2px solid #dbbb80;
+border-radius: 10px;
+background-color: #f9f9f9;
+margin-top: 20px;
+}
+.phone{
+  width: 225px;
+  height: 45px;
+  border: 2px solid #dbbb80;
+border-radius: 10px;
+
+background-color: #f9f9f9;
+margin-top: 20px;
+
+}
+
+.message{
+  width: 450px;
+height: 160px;
+margin-top: 20px;
+border: 2px solid #dbbb80;
+border-radius: 10px;
+
+background-color: #f9f9f9;
+}
+
+.b{
+
+}
